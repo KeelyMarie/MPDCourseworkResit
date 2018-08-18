@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keely McCone S1429607 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Manchester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|right"
+            android:elevation="0dp"
+            android:text="Manchester"
+            android:textSize="14sp"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Glasgow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glasgow"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/London"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="London"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/St_Helier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="St.Helier"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Inverness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inverness"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Dunfermline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dunfermline"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Blackpool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blackpool"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Cardiff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardiff"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Sunderland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunderland"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Dublin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dublin"
+            android:typeface="normal" />
+
+
+        <TextView
+            android:id="@+id/urlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Weather Forecast App"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
